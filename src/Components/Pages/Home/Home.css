@@ -1,0 +1,22 @@
+.home-page-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.home-page-subcontainer {
+    height: 95vh;
+    width: 100%;
+}
+
+.search-section {
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.search {
+    margin: auto;
+    height: 5vh;
+    width: 60%;
+    border-radius: 10px;
+}
