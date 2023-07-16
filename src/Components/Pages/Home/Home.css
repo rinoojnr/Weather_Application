@@ -1,10 +1,12 @@
 .home-page-container {
     height: 100vh;
     width: 100%;
+    /* background: rgb(2,0,36); */
+    background: linear-gradient(90deg, #A1C4FD , #C2E9FB);
 }
 
 .home-page-subcontainer {
-    height: 95vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -13,10 +15,73 @@
     width: 100%;
     display: flex;
 }
+.search:focus{
+    outline: none;
+}
 
 .search {
     margin: auto;
     height: 5vh;
     width: 60%;
     border-radius: 10px;
+    border: unset;
+}
+
+.weather-section-container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.weather-section {
+    width: 80%;
+    margin: auto;
+    height: 60%;
+    /* border-style:solid; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.weather-subsection {
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.weather-section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weather-section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.temperature-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-section {
+    width: 15%;
+}
+
+.humidity-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-section {
+    margin: auto;
 }
