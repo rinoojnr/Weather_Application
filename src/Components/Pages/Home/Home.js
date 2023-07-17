@@ -48,8 +48,8 @@ const Home = () => {
                                 </div>
                                 <div className='image-section'>
                                     <img alt='' 
-                                    src={weatherData.temp > 21 ? sun : weatherData.temp > 15 && weatherData.temp < 21 ? rain 
-                                        : weatherData.temp > 0 && weatherData.temp < 10 ? snow : weatherData.temp > 10 && weatherData.temp < 15 ? cloudy : ''}>                                        
+                                    src={weatherData.humidity > 85 ? snow : weatherData.humidity >30 && weatherData.humidity < 50 ? cloudy 
+                                        : weatherData.humidity > 50 && weatherData.humidity < 85 ? rain : weatherData.humidity > 0 && weatherData.humidity < 30 ? sun : ''}>                                        
                                     </img>
                                 </div>
                             </div>
